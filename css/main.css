@@ -1,0 +1,25 @@
+/* RESET CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #303030;
+  color: #F2F0F5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, input, textarea, button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  border: none;
+
+}
+
+button{
+  cursor: pointer;
+}
