@@ -1,3 +1,6 @@
+const footerText = document.getElementById('footer-text');
+footerText.innerHTML = new Date().getFullYear();
+
 function clearForm() {
   document.getElementById('initial-x').value = '';
   document.getElementById('initial-y').value = '';

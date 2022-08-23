@@ -26,7 +26,7 @@ button{
 
 /* MAIN INDEX CSS */
 main{
-  min-height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,4 +91,22 @@ input[type="text"]{
   font-weight: 700;
   font-size: large;
   color: #FBB034;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  background: rgba( 48, 48, 48, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-top: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+a{
+  text-decoration: none;
+  color: #fbb034;
 }
