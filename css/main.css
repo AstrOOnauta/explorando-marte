@@ -23,3 +23,72 @@ body, input, textarea, button{
 button{
   cursor: pointer;
 }
+
+/* MAIN INDEX CSS */
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+div{
+  margin-bottom: 2rem;
+
+}
+
+input{
+  margin-top: .5rem;
+}
+
+input[type="number"]{
+  width: 4rem;
+  height: 2rem;
+  padding: 0 .5rem 0 1rem;
+  border-radius: 4px;
+
+}
+
+input[type="text"]{
+  width: 10rem;
+  height: 2rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+
+
+#initial-direction{
+  width: 5.5rem;
+}
+
+#submit-button{
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: large;
+  background-color: #FBB034;
+  color: #FFFFFF;
+  border-radius: 4px;
+
+  transition-duration: .4s;
+}
+
+#submitButton:hover{
+  filter: brightness(.8);
+}
+
+#result {
+  font-weight: 700;
+  font-size: large;
+  color: #FBB034;
+}

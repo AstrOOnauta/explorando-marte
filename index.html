@@ -10,7 +10,29 @@
   <title>Mars Mission</title>
 </head>
 <body>
+  <main>
+    <form>
+      <div>
+        <label>Tamanho do terreno:</label></br>
+        <input id="land-x" type="number" min="0" placeholder="5" required />
+        <input id="land-y" type="number" min="0" placeholder="5" required />
+      </div>
   
+      <div>
+        <label>Posição inicial da sonda:</label></br>
+        <input id="initial-x" type="number" min="0" placeholder="1" required />
+        <input id="initial-y" type="number" min="0" placeholder="2" required />
+        <input id="initial-direction" type="text" maxlength="1" placeholder="N|S|E|W"  onkeydown="return /[n,s,e,w]/i.test(event.key)" required />
+      </div>
+  
+      <div>
+        <label>Movimentos da sonda (L|R|M):</label></br>
+        <input id="moves" type="text" placeholder="LMLMLMLMM" onkeydown="return /[a-zA-Z]/i.test(event.key)" required />
+      </div>
+      <button id="submit-button" type="submit">Movimentar sonda</button>
+    </form>
+    <p>Posição final da sonda: <spam id="result"></spam></p>
+  </main>
 </body>
 <script type="text/javascript" src="js/main.js"></script>
 </html>
